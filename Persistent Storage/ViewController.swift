@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var exampleString = "test"
+        //NSUserDefaults.standardUserDefaults().setObject("Mat", forKey: "myName")
+        //NSUserDefaults.standardUserDefaults().synchronize()
+        
+        //NSUserDefaults.standardUserDefaults().objectForKey("myName")
+        
+        println(NSUserDefaults.standardUserDefaults().objectForKey("myName"))
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
